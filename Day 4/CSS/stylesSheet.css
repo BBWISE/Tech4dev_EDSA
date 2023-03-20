@@ -1,0 +1,47 @@
+﻿/*
+    The Style Sheet below uses majourly
+    the 'id selector" method all through been
+    the best choice for the assignment given.
+*/
+#lnLabel{
+    /* This declaration adds color to the label indicating the Last Name column using
+        the rgba colorin style with 40% (0.4) transparency */
+    color : rgba(230,108,180, 0.4);
+}
+#fnLabel {
+    color: #0931f2; /* Adding color to the label indicating the First Name column using the Hex coloring style */
+}
+#dob {
+    color: green; /* Adding color to the label indicating the Date of Birth column using the color name style */
+}
+#sexL {
+    color: purple; /* Adding color to the label indicating the Gender column using the color name style */
+}
+#addssL {
+    color: pink; /* Adding color to the label indicating the Address column using the color name style */
+}
+#nationLabel {
+    color: darkturquoise; /* Adding color to the label indicating the Nationality column using the color name style */
+}
+#langLabel {
+    color: darkgoldenrod; /* Adding color to the label indicating the Language column using the color name style */
+}
+#emailLabel {
+    color: chartreuse; /* Adding color to the label indicating the Emial column using the color name style */
+}
+#phLabel {
+    color: gold; /* Adding color to the label indicating the Phone number column using the color name style */
+}
+#usnLabel {
+    color: darkcyan; /* Adding color to the label indicating the Username column using the color name style */
+}
+#pssLabel {
+    color: lightblue; /* Adding color to the label indicating the First Password column using the color name style */
+}
+#pssLabel2 {
+    color: lightblue; /* Adding color to the label indicating the Second Password column using the color name style */
+}
+#submitButton {
+    background-color: #eb7d06; /* This Declaration helps to add background colour to the submit button using the Hex style */
+    color: rgb(245,3,8); /* Adding color to the Submit button using the RGB style */
+}

@@ -1,0 +1,18 @@
+﻿body
+{
+   background-color: lightblue;
+}
+#frame, form {
+    border-style:solid;
+    box-shadow:red;
+    align-content:center;
+    padding:10%, 3%, 15%, 3%;
+}
+label{
+    margin-top:30%;
+    margin-bottom:30%;
+}
+button{
+    color:red;
+
+}

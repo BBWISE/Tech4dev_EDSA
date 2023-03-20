@@ -1,0 +1,30 @@
+﻿#Div {
+    max-width:170px;
+    border-style: solid;
+    border-color:red;
+
+    margin: auto;
+}
+
+#name {
+    border-width: 0px 2px 0px 2px;
+    border-style: none, solid, none, solid;
+    border-color: purple;
+    border-right-color: red;
+    background-color: rgba(18, 245, 18, 0.07);
+}
+
+#email {
+    border-width: 0px 2px 0px 2px;
+    border-style: none solid none solid;
+    border-color: purple;
+    border-right-color:red;
+    background-color: rgba(18, 245, 18, 0.07);
+}
+
+#sub {
+    margin: 10% 0% 0% 60%;
+    background-color: purple;
+    border-color: yellow;
+    color: white;
+}

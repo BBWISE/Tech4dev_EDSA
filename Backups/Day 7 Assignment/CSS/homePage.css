@@ -1,0 +1,54 @@
+﻿body{
+   background-color: rgba(30, 108, 250, 0.5);
+}
+#upSection{
+    background-color: rgb(11, 25, 154);
+    position: sticky;
+    top: 0px;
+    display: block;
+}
+#edsa {
+    max-height: 150px;
+    max-width: 200px;
+}
+#tech {
+   /* position: relative;
+    top: 0px;
+    left: 0px;*/
+    max-height: 300px;
+    max-width: 250px;
+    margin-left:65%;
+}
+a {
+    color: black;
+}
+#downSection, #ind, #reg, #das {
+    text-align:center;
+    color:white;
+}
+#line{
+    background-color:red;
+}
+#mainForm{
+    text-align: center; 
+}
+table tr th, td {
+    border-style: solid;
+    text-align:left;
+    padding: 10px 10px 10px 10px;
+    text-size-adjust: auto;
+    color:black;
+}
+#groupDetails {
+    margin:auto;
+}
+table tr th{
+    color: darkblue;
+}
+#submitButton{
+    border-style:double;
+    border-radius:10px;
+    border-color:darkblue;
+    background-color: white;
+    padding:7px;
+}

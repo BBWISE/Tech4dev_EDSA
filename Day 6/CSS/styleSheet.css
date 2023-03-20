@@ -1,0 +1,49 @@
+﻿
+
+
+#Div {
+    
+    margin: 20px 40% 0% 30%;
+}
+
+#name {
+    border-width: 0px 0px 0px 2px;
+    border-style: none, none, none, solid;
+    border-color: purple;
+    background-color: rgba(18, 245, 18, 0.2);
+}
+#email {
+    border-width: 0px 0px 0px 2px;
+    border-style: none, none, none, solid;
+    border-color: purple;
+    background-color: rgba(18, 245, 18, 0.2);
+}
+#sub{
+    margin: 10% 0% 0% 75%;
+}
+
+#p1 {
+    margin-right: 20%;
+    margin-top: 2%;
+    margin-left: 20%;
+    margin-bottom: 2%;
+    padding: 2% 30% 2% 30%;
+    border-color: blue;
+    border-width: medium;
+    border-style: solid;
+}
+#p2 {
+    margin-right: 20%;
+    margin-top: 2%;
+    margin-left: 20%;
+    margin-bottom: 2%;
+
+    padding-left: 17%;
+    padding-top:2%;
+    padding-right:17%;
+    padding-bottom:2%;
+
+    border-color: red;
+    border-width: medium;
+    border-style: solid;
+}

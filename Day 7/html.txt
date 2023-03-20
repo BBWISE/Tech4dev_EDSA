@@ -1,0 +1,15 @@
+<div id="upSection">
+        <div id="upperSection">
+            <img src="image/EDSA.png" id="edsa"/>
+            <img src="image/Tech4dev.png" id="tech" />
+        </div>
+        <br />
+        <div id="downSection">
+            <h2>
+                <a href="index.html" id="ind">HOME</a> |
+                <a href="form.html" id="reg">REGISTER</a> |
+                <a href="dashboard.html" id="das">DASHBOARD</a>
+            </h2>
+        </div>
+        <hr id="line"/>
+    </div>

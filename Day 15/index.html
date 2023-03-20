@@ -1,0 +1,42 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>BAYODE BLESSING AKINBOLA</title>
+    <link rel="stylesheet" href="CSS/StyleSheet.css" />
+</head>
+<body>
+    <div id="frame">
+        <form>
+            <label for="num1">
+                Enter Num 1:
+                <input type="number" id="num1" placeholder="0" />
+            </label>
+            <br />
+            <label for="Operator">
+                Select Operator:
+                <select id="Operator">
+                    <option value="+">Add</option>
+                    <option value="-">Subtract</option>
+                    <option value="*">Multiply</option>
+                    <option value="/">Divide</option>
+                    <option value="e">Exponential</option>
+                    <option value="%">Remainder</option>
+                </select>
+            </label>
+            <br />
+            <label for="num2">
+                Enter Num 2:
+                <input type="number" id="num2" placeholder="0" />
+            </label>
+            <br />
+            <button  type="button" onclick="calculate()">Calculate</button>
+            <br />
+            <p id="result"></p>
+        </form>
+        
+    </div>
+    <script src="JS/JavaScript.js"></script>
+</body>
+</html>

@@ -1,0 +1,193 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    
+    <title>BAYODE BLESSING AKINBOLA</title>
+    <style>
+        table tr th td{
+            border : thin;
+        }
+    </style>
+</head>
+<body>
+    <h1>
+        ASSIGNMENT SOLUTION (DAY3)
+    </h1>
+    <dl>
+        QUESTION
+        <dd><i>In your form.html file, create a form that will reflect all the form elements and input types we have discused so fa, all inputs are required, you must add placeholders and labels. Your file input should accept only csv files.</i></dd>
+    </dl>
+    <hr />
+    <h3>
+        SOLUTION
+    </h3>
+    <hr />
+    This webpage takes the details of a new Applicant for the new Ekiti State Digital Skills Academy Program.
+    <br />
+    Kindly note that all columns are to be filled.
+    <br />
+    <br />
+    <form action="" method="">
+        <table>
+            <thead>
+                <tr>
+                    <th><b>Personal Details:</b></th>
+                    <th> </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        <label for="lname">
+                            Last name:
+                        </label>
+                    </td>
+                    <td>
+                        <input type="text" name="lname" placeholder="Surname" required />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="fname">
+                            First Name:
+                        </label>
+                    </td>
+                    <td>
+                        <input type="text" name="fname" placeholder="First name" required />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="dob">
+                            Select your Date of Birth:
+                        </label>
+                    </td>
+                    <td>
+                        <input type="date" name="dob" placeholder="MM-DD-YY" required />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="sex">
+                            Gender:
+                        </label>
+                    </td>
+                    <td>
+                        <input type="radio" name="sex" required/> Male
+                        <input type="radio" name="sex" /> Femal
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="addss">
+                            Home Address:
+                        </label>
+                    </td>
+                    <td>
+                        <textarea name="addss" wrap="hard" placeholder="Your residential address:" cols="20" rows="10" required></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="select">
+                            Nationality:
+                        </label>
+                    </td>
+                    <td>
+                        <select name="select" required>
+                            <option value="">--Select Country--</option>
+                            <option value="nig">Nigeria</option>
+                            <option value="tog">Togo</option>
+                            <option value="usa">USA</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="lang">
+                            Language(s):
+                        </label>
+                    </td>
+                    <td>
+                        <input type="checkbox" name="lang" required />English<br />
+                        
+                        <input type="checkbox" name="lang" />Yoruba<br />
+                        
+                        <input type="checkbox" name="lang" />Igbo<br />
+                        
+                        <input type="checkbox" name="lang" />Hausa
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <strong>Contact Informations:</strong>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="email">
+                            Email Address:
+                        </label>
+                    </td>
+                    <td>
+                        <input type="email" name="email" placeholder="example@ekitidigitalskillacademy.com" required />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="phone">
+                            Mobile Number:
+                        </label>
+                    </td>
+                    <td>
+                        <input type="number" name="phone" placeholder="+2348012345678" required />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <b>
+                            Login Details:
+                        </b>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="username">
+                            User Name:
+                        </label>
+                    </td>
+                    <td>
+                        <input type="text" name="username" placeholder="USERNAME" required />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="pass1">
+                            Password:
+                        </label>
+                    </td>
+                    <td>
+                        <label for="pass2">
+                            Confirm Password:
+                        </label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="password" name="pass1" placeholder="password" required />
+                    </td>
+                    <td>
+                        <input type="password" name="pass2" placeholder="password" required />
+                    </td>
+                </tr>
+            </tbody>
+            
+        </table>
+        <i>NOTE:</i> Since this registration is only for Students applying for the Data Science Program, you are required to upload a copy of a <b>dataset</b>.
+        <br />
+        <input type="file" name="dataset" placeholder="Upload dataset" required accept="application/.csv"/>
+        
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
